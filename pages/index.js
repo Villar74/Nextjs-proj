@@ -61,16 +61,3 @@ export default function Index() {
       `}</style>
     </Layout>)
 }
-
-/*Index.getInitialProps = async function() {
-
-  const { res, error } = await getData();
-  const data = await res.json();
-
-  console.log(`Show data fetched. Count: ${data.length}`);
-
-  return {
-    shows: data.map(entry => entry.show)
-  };
-};*/
-
